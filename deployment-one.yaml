@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: sample-first
-        image: docker.io/anaisurlichs/flask-one:1.0   ##You can use any docker repository to pull your image.
+        image: docker.io/tpillai/flask-one:1.0   ##You can use any docker repository to pull your image.
 ---
 apiVersion: v1
 kind: Service

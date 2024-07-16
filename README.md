@@ -32,19 +32,19 @@ cd app-one
 now build your Docker image
 
 ```
-docker build -t anaisurlichs/flask-one:1.0 .
+docker build -t tpillai/flask-one:1.0 .
 ```
 
 You can test it out through
 
 ```
-docker run -p 8080:8080 anaisurlichs/flask-one:1.0
+docker run -p 8080:8080 tpillai/flask-one:1.0
 ```
 
 And then we are going to push the image to our Docker Hub
 
 ```
-docker push anaisurlichs/flask-one:1.0
+docker push tpillai/flask-one:1.0
 ```
 
 We are going to do the same in our second example application
@@ -57,13 +57,13 @@ cd app-two
 build the docker image
 
 ```
-docker build -t anaisurlichs/flask-two:1.0 .
+docker build -t tpillai/flask-two:1.0 .
 ```
 
 push it to your Docker Hub
 
 ```
-docker push anaisurlichs/flask-two:1.0
+docker push tpillai/flask-two:1.0
 ```
 
 Now apply the deployment-one.yaml and the deployment-tow.yaml
